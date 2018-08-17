@@ -1,0 +1,50 @@
+<Freightcom xmlns="http://www.freightcom.net/xml/XMLSchema" version="3.1.0">
+<QuoteReply>
+<Quote carrierId="46" carrierName="Freightcom" serviceId="4600" serviceName="UPS Standard" modeTransport="G" transitDays="7" currency="CAD" baseCharge="22.37" fuelSurcharge="3.6405600090414283" totalCharge="29.39" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="3.38" />
+</Quote>
+<Quote carrierId="34" carrierName="Freightcom" serviceId="3400" serviceName="GROUND" modeTransport="A" transitDays="1" currency="CAD" baseCharge="31.48799980354309" fuelSurcharge="5.604000105470419" totalCharge="41.91" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="4.82" />
+</Quote>
+<Quote carrierId="46" carrierName="Freightcom" serviceId="4601" serviceName="UPS Expedited" modeTransport="A" transitDays="5" currency="CAD" baseCharge="46.63" fuelSurcharge="6.357600015789269" totalCharge="59.88" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="6.89" />
+</Quote>
+<Quote carrierId="34" carrierName="Freightcom" serviceId="3404" serviceName="SELECT" modeTransport="A" transitDays="1" currency="CAD" baseCharge="46.332000847488644" fuelSurcharge="8.243999883145094" totalCharge="61.68" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="7.1" />
+</Quote>
+<Quote carrierId="34" carrierName="Freightcom" serviceId="3407" serviceName="OVERNIGHT" modeTransport="A" transitDays="1" currency="CAD" baseCharge="46.332000847488644" fuelSurcharge="8.243999883145094" totalCharge="61.68" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="7.1" />
+</Quote>
+<Quote carrierId="46" carrierName="Freightcom" serviceId="4602" serviceName="UPS Express Saver" modeTransport="A" transitDays="4" currency="CAD" baseCharge="49.28" fuelSurcharge="6.719040016686916" totalCharge="63.28" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="7.28" />
+</Quote>
+<Quote carrierId="46" carrierName="Freightcom" serviceId="4603" serviceName="UPS Express" modeTransport="A" transitDays="4" currency="CAD" baseCharge="56.23" fuelSurcharge="7.666560019040108" totalCharge="72.21" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="8.31" />
+</Quote>
+<Quote carrierId="46" carrierName="Freightcom" serviceId="4604" serviceName="UPS Express Early" modeTransport="A" transitDays="4" currency="CAD" baseCharge="66.21" fuelSurcharge="9.02736002241969" totalCharge="85.02" cubedWeight="0.0">
+<Surcharge id="null" name="HST" amount="9.78" />
+</Quote>
+<Quote carrierId="40" carrierName="Freightcom" serviceId="4000" serviceName="PurolatorGround" modeTransport="A" transitDays="5" currency="CAD" baseCharge="80.17" fuelSurcharge="10.044000024944543" totalCharge="116.75" cubedWeight="0.0">
+<Surcharge id="null" name="Residential Delivery" amount="2.95" />
+<Surcharge id="null" name="HST" amount="10.16" />
+<Surcharge id="null" name="HST" amount="13.43" />
+</Quote>
+<Quote carrierId="40" carrierName="Freightcom" serviceId="4003" serviceName="PurolatorExpress" modeTransport="A" transitDays="2" currency="CAD" baseCharge="183.37" fuelSurcharge="22.428000055700544" totalCharge="261.52" cubedWeight="0.0">
+<Surcharge id="null" name="Residential Delivery" amount="2.95" />
+<Surcharge id="null" name="HST" amount="22.68" />
+<Surcharge id="null" name="HST" amount="30.09" />
+</Quote>
+<Quote carrierId="40" carrierName="Freightcom" serviceId="4005" serviceName="PurolatorExpress10:30AM" modeTransport="A" transitDays="2" currency="CAD" baseCharge="207.19" fuelSurcharge="25.284000062793496" totalCharge="294.92" cubedWeight="0.0">
+<Surcharge id="null" name="Residential Delivery" amount="2.95" />
+<Surcharge id="null" name="HST" amount="25.57" />
+<Surcharge id="null" name="HST" amount="33.93" />
+</Quote>
+<Quote carrierId="40" carrierName="Freightcom" serviceId="4004" serviceName="PurolatorExpress9AM" modeTransport="A" transitDays="2" currency="CAD" baseCharge="243.37" fuelSurcharge="29.628000073581937" totalCharge="345.68" cubedWeight="0.0">
+<Surcharge id="null" name="Residential Delivery" amount="2.95" />
+<Surcharge id="null" name="HST" amount="29.96" />
+<Surcharge id="null" name="HST" amount="39.77" />
+</Quote>
+<CarrierErrorMessage size="2" errorMessage0="Unable to authenticate user" errorMessage1="">
+</CarrierErrorMessage>
+</QuoteReply>
+</Freightcom>
