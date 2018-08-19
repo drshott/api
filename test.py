@@ -22,4 +22,32 @@ for i in range(1, n):
     </QuoteRequest>
 </Freightcom>"""
 
+    # pp = pprint.PrettyPrinter(indent=4)
+    # pp.pprint(json.dumps(xmltodict.parse(r.content)))
+    with open('quotes.xml') as fd:
+        doc = xmltodict.parse(fd.read())
+    fd.close
+
+    myobj = json.loads(json.dumps(doc))
+    #dictionary = ast.literal_eval(myobj['Quotes'])
+    #for key, nested in dictionary.iteritems():
+    #    nested = ast.literal_eval(nested)
+    #    print key, nested
+    #jdata = ast.literal_eval(json.dumps(doc))
+    #pp = pprint.PrettyPrinter(indent=4)
+    #pp.pprint(json.dumps(doc))
+    # js = json.dumps(doc)
+    # print js
+    # js1 = (js.encode('ascii', 'ignore')).decode("utf-8")
+    # print js1
+    #js2 = json.loads(str(jdata))
+
+    #print js2
+    #js3 = (js2.encode('ascii', 'ignore')).decode("utf-8")
+    #print js3
+    #with open ('quotes.json' , 'wb') as fj:
+    #    fj.write(json.dumps(doc))
+    #fj.close()
+    #pandas.read_json(json.dumps(doc)).to_excel("output.xlsx")
+
     print xml
